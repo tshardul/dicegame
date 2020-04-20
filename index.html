@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Dicee</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Lobster|Quicksand" rel="stylesheet">
+
+  </head>
+  <body>
+
+    <div class="container">
+      <h1>Roll the Dice!</h1>
+
+      <div class="dice">
+        <p>Player 1</p>
+        <img class="img1" src="images/dice6.png">
+      </div>
+
+      <div class="dice">
+        <p>Player 2</p>
+        <img class="img2" src="images/dice6.png">
+      </div>
+
+      <div class = "win-count">
+        <h2 id = "winner" class = "hidden-completely"> Winner: </h2>
+        <h3 class="final-message final-count hidden">player 1 wins with 4 rolls over player 2's 6 rolls. </h3>
+        <h3 id="p1wincount">Player 1 win count:  0</h3>
+        <h3 id="p2wincount">Player 2 win count:  0</h3>
+        <h3 id="drawcount">Draws: 0</h3>
+      </div>
+
+      <div class="rules">
+        <h3>Rules:</h3>
+        <ol>
+          <li>Click on the Roll! Button to roll the dice.</li>
+          <li>The player with the higher numbered dice wins the round.</li>
+          <li>Number of rounds won is counted on the right.</li>
+          <li>If you want to end the game, click the end game button. The winner's name shall be declared in the right side</li>
+          <li>If you want to play again, click on the restart button.</li>
+        </ol>
+
+      </div>
+      <div class="button">
+        <button class = "btn" type="button" name="button">Roll!</button>
+        <button class = "endbtn" type="button" name="button">End game</button>
+      </div>
+
+
+
+
+  <script src="index.js" charset="utf-8"></script>
+
+  </body>
+
+  <footer>
+    Shardul Thakare
+  </footer>
+</html>
